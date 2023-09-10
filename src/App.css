@@ -11,6 +11,18 @@
   justify-content: center;
 }
 
+a {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color:#CEF09D;
+}
+
+a:visited {
+  color:#CEF09D;
+}
+
 h1 {
   margin: 0;
   padding: 10px;
@@ -44,15 +56,18 @@ li img {
   padding: 5px;
 }
 
+.formatli {
+  display: flex;
+  align-items: center;
+  text-align:center;
+}
+
 li {
   background-color: #E05A69;
   border: solid white 2px;
   margin: calc(5px + 1vmin);
   padding: calc(2px + .5vmin);
   width: 100%;
-  display: flex;
-  align-items: center;
-  text-align:center;
   transition: transform 0.2s;
 }
 
@@ -80,6 +95,42 @@ li:hover {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.profile {
+  background-color: #38184c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.folder {
+  width: 80%;
+  background-color: #512f67;
+  margin-top: 5vh;
+  padding: 2vh;
+  border-radius: 10px 10px 0px 0px;
+  height: 95vh;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+}
+
+.pfp {
+  width: calc(10px + 10vmin);
+  height: calc(10px + 10vmin);
+  border-radius: 100%;
+}
+
+h2 {
+  display: inline;
+  padding: 10px;
 }
 
 @keyframes App-logo-spin {

@@ -11,9 +11,9 @@ import NoPage from "./pages/NoPage";
 
 
 const roster = [
-    { name: 'Cabbage', imagePath: '../images/woman.tiff'},
-    { name: 'Garlic', imagePath: '../images/man.tiff'},
-    { name: 'Apple', imagePath: '../images/brotha.tiff'}
+    { name: 'Cabbage', imagePath: '../images/woman.tiff', fears: ['kitchen', 'knife']},
+    { name: 'Garlic', imagePath: '../images/man.tiff', fears: ['vampire', 'cross', 'light']},
+    { name: 'Apple', imagePath: '../images/brotha.tiff', fears: ['doctor', 'orange', 'pear', 'worm', 'teacher']}
   ];
 
 

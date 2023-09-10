@@ -2,15 +2,14 @@ import {BrowserRouter, Route, Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
-        <nav>
-            <ul>
-                <li>
-                    <Link to='/'>Home</Link>
-                </li>
-                <li>
-                    <Link to='/Profile'>this doesnt matter rn</Link>
-                </li>
-            </ul>
-        </nav>
+        <div className="App">
+            <div class='header'>
+                <Link to="/">
+                    <img class='logo' src='../images/logo.png'></img>
+                    <h1>Find My Nemesis</h1>
+                </Link>
+            </div>
+      </div>
+        
     )
 }
